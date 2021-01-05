@@ -1,0 +1,39 @@
+:root{
+    --my-black:#67647e;
+    --my-purple:#727bfa;
+}
+/* navbar */
+.navbar .navbar-brand{
+    color: var(--my-black);
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    color:var(--my-black);
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color:rgb(49, 49, 49);
+}
+.navbar .navbar-nav .nav-item .nav-link.active{
+    color:var(--my-purple);
+}
+/* end navbar */
+
+/* landing page */
+.landing-page a.btn.btn-primary{
+    background-color: var(--my-purple);
+    border:0;
+}
+.landing-page a.btn.btn-primary:hover{
+    background-color: var(--my-black);
+    border:0;
+}
+/* end landing page */
+/* section social media */
+.social-media-link{
+    font-size: 40px;
+    color: var(--my-black);
+}
+.social-media-link:hover{
+    font-size: 40px;
+    color: var(--my-purple);
+}
+/* end section social media */
